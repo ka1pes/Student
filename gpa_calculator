@@ -1,0 +1,23 @@
+# GPA CALCULATOR - ka1pes
+
+print("I will tell you your predicted GPA. Input your grades")
+english = float(input("english grade:"))
+math = float(input("math grade:"))
+science = float(input("science grade:"))
+other = float(input("another grade:"))
+other1 = float(input("another grade:"))
+other2 = float(input("another grade:"))
+other3 = float(input("another grade:"))
+
+sum = float(english + math + science + other + other1 + other2 + other3)
+
+print("Now input your previous GPA")
+GPA2 = float(input())
+
+print("this is your GPA for this year")
+print(sum/7)
+
+sum = sum/7
+
+print("this is your predicted GPA")
+print((GPA2 + sum)/2)
